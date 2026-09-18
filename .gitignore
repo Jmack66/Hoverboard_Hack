@@ -1,0 +1,7 @@
+# Build artifacts
+build/
+*.o
+
+# macOS / editor junk
+.DS_Store
+*.swp
