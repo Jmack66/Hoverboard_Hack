@@ -58,6 +58,11 @@ Table of Contents
   - `ref_fw.bin`, `main_c_v1.txt`, `main_c_v2.txt` — known-good reference
     firmware dump and source snapshots used to cross-check register
     behaviour during reverse engineering.
+- **`hoverboard_hack_esp32_manualspeed-main/`** — ESP32 sketch that drives the
+  hoverboard over the serial `hover|<motor>|<speed>|<state>` protocol
+  (single motor, left/right, or all). Based on
+  [RoboDurden/Hoverboard-Firmware-Hack-Gen2.x-GD32](https://github.com/RoboDurden/Hoverboard-Firmware-Hack-Gen2.x-GD32/tree/main/Arduino%20Examples/TestSpeed);
+  ADC-based potentiometer control is present but untested.
 
 ## The Chip Deception (short version)
 
